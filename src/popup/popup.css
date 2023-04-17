@@ -1,0 +1,51 @@
+body {
+  width: max-content;
+  height: max-content;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  /*margin: 10px 0;*/
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.blockButton, .unblockButton {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007aff;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.blockButton:hover, .unblockButton:hover {
+  background-color: #0058b7;
+}
+
+.blockButton:active, .unblockButton:active {
+  background-color: #007aff;
+}
+
+#domainsContainer {
+  max-height: 200px;
+  overflow-y: auto;
+}
